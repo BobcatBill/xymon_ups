@@ -1,3 +1,13 @@
+Add this to $XYMONCLIENTHOME/clientlaunch.cfg
+
+```
+[ups]
+        ENVFILE $XYMONCLIENTHOME/etc/xymonclient.cfg
+        CMD $XYMONCLIENTHOME/ext/nut.sh
+        LOGFILE $XYMONCLIENTLOGS/nut.log
+        INTERVAL 5m
+```
+
 Add this to the graphs.cfg file:
 
 ```
